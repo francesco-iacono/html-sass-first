@@ -1,5 +1,13 @@
 $brandColor: 	#8b0000;
+$buttonColor: #ffff;
 
 h1 {
+  color: $brandColor;
+}
+
+button {
+  cursor: pointer;
+  border: 1px solid $brandColor;
   background-color: $brandColor;
+  color: $buttonColor;
 }
